@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Link from "next/link";
 import { MdAccountCircle } from "react-icons/md";
 import { CiShoppingCart } from "react-icons/ci";
 
