@@ -1,0 +1,133 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.container {
+  background-color: #261b2b;
+  width: 100vw; 
+  height: 100vh; 
+  display: flex;
+  flex-direction: column;
+}
+
+.logo{
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: bold;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+
+.navbar {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fffbfb;
+  margin-right: 20px;
+}
+
+.cart-image{
+  display: flex;
+  width:50px;
+  height: 50px;
+  max-width: 50px;
+  margin-right: 200px;
+  list-style: none;
+  justify-content: flex-end;
+}
+
+.profile-image{
+  position: absolute;
+  top: 22px;
+  right: 60px;
+  display: flex;
+  width:40px;
+  height: 40px;
+  max-width: 50px;
+  padding-top: 5px;
+  background: #fffbfb;
+  padding-left: 5px;
+  margin-right: 200px;
+  list-style: none;
+  justify-content: flex-end;
+}
+
+.navbar nav ul{
+  display: flex;
+  list-style: none;
+}
+
+.navbar nav li{
+  margin-left: 30px;
+}
+
+.navbar nav ul li a {
+  text-decoration: none;
+  color: rgb(124, 110, 110);
+  transition: color 0.1s;
+  font-weight: 500px;
+}
+
+.navbar nav ul li a:hover {
+  color: #201919;
+}
+
+.content {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  padding: 50px;
+  height: calc(100vh - 80px); 
+  gap: 50px; 
+}
+
+.text{
+  max-width: 50%;
+}
+
+.text h1 {
+  font-size: 3rem;
+  font-weight:100;
+}
+
+.text h1 {
+  color: #aaa;
+}
+
+.text h2{
+  font-size: 4rem;
+  margin: 20px 0;
+  font-weight: bold;
+  padding-bottom: 9px;
+  color: #aaa;
+}
+
+.text p{
+  font-size: 1.2rem;
+  color: #aaa;
+  margin: 20px 0;
+}
+
+.text button{
+  padding: 15px 30px;
+  background-color: #526780;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3
+}
+
+.text-section button:hover {
+  background-color: #10395c;
+}
+
+.iphone-image {
+  max-width: 100%;
+  height: auto;
+  width: 400px;
+}
+
